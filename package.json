@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node ./src/day1/index.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "ts-node": "^10.4.0",
+    "typescript": "5.3.3"
+  }
+}
